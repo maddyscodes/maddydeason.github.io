@@ -21,7 +21,8 @@
         <a href="https://twitter.com/maddydeason" class="icon twitter"><i class="fa fa-twitter"></i></a>
         <a href="https://www.linkedin.com/in/maddydeason/" class="icon linkedin"><i class="fa fa-linkedin"></i></a>
     </div>
-    <div class="footnote">&copy;2019 Maddy Deason</div>
+    <div class="footnote">&copy;<span id="copyright"></span> Maddy Deason</div>
 </body>
 
+<script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
 </html>
