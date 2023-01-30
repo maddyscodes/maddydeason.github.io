@@ -1,5 +1,5 @@
-# maddydeason.github.io
+# maddyscodes.github.io
 
 My personal website and portfolio
 
-<a href="http://maddydeason.com/">See it live</a>
+<a href="http://maddy.codes/">See it live</a>
