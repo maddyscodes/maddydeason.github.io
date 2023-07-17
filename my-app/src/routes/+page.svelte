@@ -1,4 +1,5 @@
-<script>
+<script lang="ts">
+    import ProjectCard from "$lib/components/projectCard.svelte";
     import {featuredProjects} from "../lib/projectData";
 </script>
 
@@ -17,15 +18,7 @@
 <section id="projects">      
     <h2>Featured projects</h2>
     {#each featuredProjects as project }
-        <h2>{project.title}</h2>
-        <span>{project.status}</span>
-        <img src={project.image} alt={project.imageAlt}>
-        <p>{project.description}</p>
-        <ul>
-            {#each project.skills as skill}
-                <li>{skill}</li>
-            {/each}
-        </ul>
+        <ProjectCard item={project} />
     {/each}
     <a href="/projects">More projects</a>
 </section>
