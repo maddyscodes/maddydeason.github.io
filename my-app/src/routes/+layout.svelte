@@ -5,10 +5,10 @@
             <li><a href="/#experience">experience</a></li>
             <li><a href="/projects">projects</a></li>
         </ul>
-        <ul>
+        <!-- <ul>
             <li>en/jp</li>
             <li>light/dark</li>
-        </ul>
+        </ul> -->
     </nav>
 </header>
 

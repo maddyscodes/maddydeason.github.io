@@ -1,7 +1,10 @@
 export interface Projects {
-    title: String
-    technologies: Array<String>
-    description: String
-    url?: String
-    status: String
+    title: string
+    skills: Array<string>
+    description: string
+    url?: string
+    image?: string
+    imageAlt?: string
+    status: string
+    isFeatured: boolean
 }
