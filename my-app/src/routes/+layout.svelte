@@ -1,21 +1,20 @@
-<header>
-    <a href="/">maddy (logo)</a>
-    <nav>
-        <ul>
-            <li><a href="/#experience">experience</a></li>
-            <li><a href="/projects">projects</a></li>
-        </ul>
-        <!-- <ul>
-            <li>en/jp</li>
-            <li>light/dark</li>
-        </ul> -->
-    </nav>
-</header>
+<script>
+    import { theme } from '$lib/stores'
+    import Header from "$lib/components/header.svelte";
+    import { currentYear } from "$lib/plugins";
+</script>
 
-<main>
+<svelte:head>
+    <meta name="color-scheme" content={$theme === 'system' ? 'light dark' : $theme}/>
+    <link rel="stylesheet" href={`/theme/${$theme}.css`} />
+</svelte:head>
+
+<Header />
+
+<main class="main">
     <slot></slot>
 </main>
 
 <footer>
-    <p>&copy; Mana Sugiyoshi</p>
+    <p>&copy;{currentYear} Mana Sugiyoshi</p>
 </footer>

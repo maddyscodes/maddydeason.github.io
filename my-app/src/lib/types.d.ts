@@ -8,3 +8,10 @@ export interface Projects {
     status: string
     isFeatured: boolean
 }
+
+export interface Socials {
+    name: string
+    url: string
+}
+
+export type Theme = 'system' | 'light' | 'dark'

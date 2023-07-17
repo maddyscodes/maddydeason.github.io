@@ -1,6 +1,6 @@
 <script lang="ts">
     import ProjectCard from "$lib/components/projectCard.svelte";
-    import {projects} from "$lib/projectData";
+    import { projects } from "$lib/projectData";
 </script>
 
 <h1>Projects</h1>

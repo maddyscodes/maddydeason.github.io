@@ -1,6 +1,6 @@
-import type { Projects } from "./projects";
+import type { Projects } from "./types";
 
-const projects: Array<Projects> = [
+const projects: Projects[] = [
     {
         title: 'Developer Relations project for internal frontend ecosystem',
         skills: ['Communication', 'Community Management', 'Documentation'],
