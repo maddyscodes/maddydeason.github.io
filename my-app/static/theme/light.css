@@ -1,8 +1,10 @@
 :root {
-    --color-lightest: hsl(0deg, 0%, 100%);
-    --color-lighter: hsl(0deg, 0%, 80%);
-    --color-light: hsl(0deg, 0%, 60%);
-    --color-strong: hsl(0deg, 0%, 40%);
-    --color-stronger: hsl(0deg, 0%, 20%);
-    --color-strongest: hsl(0deg, 0%, 0%);
+  --color-lightest: hsl(60, 100%, 99%);
+  --color-lighter: hsl(60, 4%, 82%);
+  --color-light: hsl(60, 2%, 65%);
+  --color-strong: hsl(45, 2%, 48%);
+  --color-stronger: hsl(45, 3%, 31%);
+  --color-strongest: hsl(40, 4%, 14%);
+  --color-link: hsl(218, 74%, 41%);
+  --color-linkvisited: hsl(280, 74%, 41%);
 }
