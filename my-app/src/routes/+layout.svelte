@@ -1,8 +1,8 @@
 <script>
   import { theme } from '$lib/stores'
   import Header from "$lib/components/header.svelte";
-  import { currentYear } from "$lib/plugins";
   import 'normalize.css'
+  import Footer from '$lib/components/footer.svelte'
 </script>
 
 <svelte:head>
@@ -16,9 +16,7 @@
   <slot></slot>
 </main>
 
-<footer class="footer">
-  <p class="footer_copyright">&copy;{currentYear} Mana Sugiyoshi</p>
-</footer>
+<Footer />
 
 <style global lang="scss">
 @font-face {
@@ -44,8 +42,9 @@
 }
 
 :root {
-  --color-primary: hsl(317deg 25% 75%);
-  --color-secondary: hsl(38deg 74% 56%);
+  --color-purple: hsl(317deg 25% 75%);
+  --color-yellow: hsl(38deg 74% 56%);
+  --color-black: hsl(40deg 4% 14%);
 }
   
 a {
@@ -64,6 +63,11 @@ a {
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+  line-height: 1;
+}
+
 .main, .footer {
   background-color: var(--color-lightest);
   color: var(--color-strongest);
@@ -72,13 +76,6 @@ a {
 
 .main {
   margin-top: 4rem;
-}
-
-.footer {
-  padding: 1rem 0;
-
-  &_copyright {
-    margin: 0;
-  }
+  padding: 0 1rem;
 }
 </style>

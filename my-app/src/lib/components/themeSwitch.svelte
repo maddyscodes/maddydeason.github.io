@@ -16,11 +16,12 @@
   padding: 2px;
   border: 1px solid var(--color-strongest);
   border-radius: 1em;
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: var(--color-strongest);
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: icomoon !important;
   font-size: 1.2em;
+  cursor: pointer;
 
   &::before {
     content: '\e900';
@@ -36,8 +37,6 @@
   }
 
   &.dark {
-    background-color: var(--color-primary);
-
     &::before {
       content: '\e901';
       margin-left: 1.25em;

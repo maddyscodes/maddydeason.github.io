@@ -27,19 +27,9 @@
   height: 4rem;
   margin: 0 auto;
   background-color: var(--color-lightest);
+  box-shadow: 0 0 2rem var(--color-primary);
   color: var(--color-strongest);
   font: 700 1em/1 'Roboto Slab', serif;
-
-  &::after {
-    content: "";
-    position: absolute;
-    top: auto;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 4px;
-    background-color: var(--color-primary);
-  }
 
   &_logo {
     display: block;
