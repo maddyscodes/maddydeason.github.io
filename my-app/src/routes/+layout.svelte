@@ -30,12 +30,16 @@
 }
 
 @font-face {
+  font-family: "M PLUS 1p";
+  src: url("/fonts/MPLUS1p-Bold.ttf");
+}
+
+@font-face {
   font-family: icomoon;
   font-style: normal;
   font-weight: 400;
   src:  url('fonts/icomoon.eot?68kyr8');
-  src:  url('fonts/icomoon.eot?68kyr8#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?68kyr8') format('truetype'),
+  src:  url('fonts/icomoon.ttf?68kyr8') format('truetype'),
     url('fonts/icomoon.woff?68kyr8') format('woff'),
     url('fonts/icomoon.svg?68kyr8#icomoon') format('svg');
   font-display: block;
@@ -76,6 +80,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .main {
   margin-top: 4rem;
-  padding: 0 1rem;
+  padding: 0 1.5rem;
 }
 </style>

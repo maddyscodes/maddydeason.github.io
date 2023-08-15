@@ -13,12 +13,13 @@
 <style lang="scss">
 .socials {
   display: flex;
+  justify-content: space-between;
+  max-width: 300px;
   margin: 0;
   padding: 0;
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: icomoon !important;
   list-style: none;
-  gap: 1em;
   
   &_link {
     display: flex;
