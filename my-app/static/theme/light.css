@@ -8,6 +8,7 @@
   --color-link: hsl(218, 74%, 41%);
   --color-linkvisited: hsl(280, 74%, 41%);
   --color-primary: hsl(38deg 74% 56%);
+  --color-secondary: hsl(317deg 25% 75%);
   --icon-theme: '\e900';
   --icon-margin: 0;
 }

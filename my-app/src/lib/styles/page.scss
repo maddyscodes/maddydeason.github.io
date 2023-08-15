@@ -1,0 +1,28 @@
+.page {
+  &_section {
+    padding-bottom: 4rem;
+    scroll-margin-top: 6rem;
+  }
+
+  &_heading {
+    max-width: fit-content;
+    margin: 0 0 1rem -1.5rem;
+    padding: .2rem 1rem .3rem 1.5rem;
+    background-color: var(--color-primary);
+    color: var(--color-black);
+  }
+
+  &_subheading {
+    margin: -.5rem 0 2.5rem;
+    font-size: 1em;
+    font-weight: 300;
+  }
+
+  &_body {
+    margin: 0 0 1.5em;
+  }
+
+  &_link {
+    display: block;
+  }
+}

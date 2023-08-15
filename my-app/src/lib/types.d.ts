@@ -3,9 +3,9 @@ export interface Projects {
   skills: Array<string>
   description: string
   url?: string
+  urlText?: string
   image?: string
   imageAlt?: string
-  status: string
   isFeatured: boolean
 }
 

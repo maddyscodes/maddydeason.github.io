@@ -3,9 +3,21 @@
   import { projects } from "$lib/projectData";
 </script>
 
-<h1>Projects</h1>
+<h1 class="page_heading">Projects</h1>
+
 {#each projects as project}
   <ProjectCard item={project} />
 {/each}
 
-<a href="https://www.linkedin.com/in/manasugiyoshi/">Visit my Linkedin for more information about my work</a>
+<p class="page_body">For more info about my work:<a class="page_link" href="https://www.linkedin.com/in/manasugiyoshi/">Visit my Linkedin</a></p>
+
+
+<style lang="scss">
+@import url("$lib/styles/page.scss");
+
+.page {
+  &_heading {
+    margin-top: 6rem;
+  }
+}
+</style>

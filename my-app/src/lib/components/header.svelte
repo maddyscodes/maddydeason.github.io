@@ -3,7 +3,7 @@
 </script>
 
 <header class="header">
-  <a class="header_logo" href="/"><img class="header_logoImage" src="./images/logo_maddy.svg" alt="home"></a>
+  <a class="header_logo" href="/"><img class="header_logoImage" src="$lib/images/logo_maddy.svg" alt="home"></a>
   <nav class="header_nav">
     <ul class="header_list">
       <li class="header_listItem"><a class="header_listLink" href="/#experience">EXPERIENCE</a></li>
@@ -28,7 +28,6 @@
   margin: 0 auto;
   background-color: var(--color-lightest);
   box-shadow: 0 0 2rem var(--color-primary);
-  color: var(--color-strongest);
   font: 700 1em/1 'Roboto Slab', serif;
 
   &_logo {

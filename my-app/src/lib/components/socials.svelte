@@ -28,7 +28,7 @@
     width: 1.7em;
     height: 1.7em;
     border-radius: 50%;
-    background-color: var(--color-primary);
+    background-color: var(--color-secondary);
     color: var(--color-black);
     font-size: 1.5em;
     line-height: 1;
