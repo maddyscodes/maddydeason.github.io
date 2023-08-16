@@ -49,6 +49,7 @@
   &_heading {
     &.title {
       margin-top: -1px;
+      font-size: 1.9em;
     }
 
     .japanese {
