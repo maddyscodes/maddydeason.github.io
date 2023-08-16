@@ -1,13 +1,14 @@
 <script>
   import ThemeSwitch from "./themeSwitch.svelte";
+  import { base } from '$app/paths';
 </script>
 
 <header class="header">
-  <a class="header_logo" href="/"><img class="header_logoImage" src="$lib/images/logo_maddy.svg" alt="home"></a>
+  <a class="header_logo" href="{base}/"><img class="header_logoImage" src="$lib/images/logo_maddy.svg" alt="home"></a>
   <nav class="header_nav">
     <ul class="header_list">
-      <li class="header_listItem"><a class="header_listLink" href="/#experience">EXPERIENCE</a></li>
-      <li class="header_listItem"><a class="header_listLink" href="/projects">PROJECTS</a></li>
+      <li class="header_listItem"><a class="header_listLink" href="{base}/#experience">EXPERIENCE</a></li>
+      <li class="header_listItem"><a class="header_listLink" href="{base}/projects">PROJECTS</a></li>
     </ul>
   </nav>
   <div class="header_switch">

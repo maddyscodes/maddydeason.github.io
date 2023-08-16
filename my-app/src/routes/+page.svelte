@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { base } from "$app/paths"
   import ProjectCard from "$lib/components/projectCard.svelte";
   import Socials from "$lib/components/socials.svelte"
   import { yearsOfExperience } from "$lib/plugins";
@@ -22,7 +23,7 @@
   <h2 class="page_heading">Experience</h2>
   <p class="page_body">As I child, I used to build geocities fan sites for my favorite Sailor Moon characters. So, I like to say that I have over 25 years of experience on the internet.</p>
   <p class="page_body">Jokes aside, as a full-time employee, I have {yearsOfExperience}+ years of experience in frontend development, and a passion for web accessibility and high-quality UI/UX.</p>
-  <a class="page_link" href="/assets/resume_ManaSugiyoshi-en.pdf">Download my resume (PDF)</a>
+  <a class="page_link" href="{base}/assets/resume_ManaSugiyoshi-en.pdf">Download my resume (PDF)</a>
   <a class="page_link" href="https://www.linkedin.com/in/manasugiyoshi/">Visit my Linkedin</a>
 </section>
 
@@ -31,7 +32,7 @@
   {#each featuredProjects as project }
     <ProjectCard item={project} />
   {/each}
-  <a class="page_link" href="/projects">More projects</a>
+  <a class="page_link" href="{base}/projects">More projects</a>
 </section>
 
 <style lang="scss">

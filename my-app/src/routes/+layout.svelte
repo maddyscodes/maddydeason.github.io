@@ -3,12 +3,13 @@
   import Header from "$lib/components/header.svelte";
   import 'normalize.css'
   import Footer from '$lib/components/footer.svelte'
+  import { base } from '$app/paths';
 </script>
 
 <svelte:head>
   <title>maddy | UI/UX engineer</title>
   <meta name="color-scheme" content={$theme === 'system' ? 'light dark' : $theme}/>
-  <link rel="stylesheet" href={`/theme/${$theme}.css`} />
+  <link rel="stylesheet" href={`${base}/theme/${$theme}.css`} />
 </svelte:head>
 
 <Header />

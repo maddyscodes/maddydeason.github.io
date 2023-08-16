@@ -1,10 +1,13 @@
 <script lang="ts">
+  import { base } from "$app/paths"
+
   export let item: any;
+  // const imageSrc = `$lib/images/${item.image}`
 </script>
 
 <section class="projectCard">
   {#if item.image}
-    <img class="projectCard_image" src={item.image} alt={item.imageAlt}>
+    <img class="projectCard_image" src="{base}/assets/{item.image}" alt={item.imageAlt}>
   {/if}
   <h3 class="projectCard_heading">{item.title}</h3>
   <ul class="projectCard_list">
