@@ -13,6 +13,7 @@
   </div>
   <div>
     <p class="page_body">I combine my <em class="emphasis">creative</em>, <em class="emphasis">technical</em>, and <em class="emphasis">communication</em> skills to build a better future for the web and the world.</p>
+    <a class="page_button" href="https://youtu.be/rJARzmyIorY">Watch my story</a>
     <Socials --color-background="var(--color-secondary)" />
   </div>
 </section>

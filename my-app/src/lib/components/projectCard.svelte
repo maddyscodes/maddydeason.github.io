@@ -3,7 +3,7 @@
 </script>
 
 <section class="projectCard">
-  {#if item.img}
+  {#if item.image}
     <img class="projectCard_image" src={item.image} alt={item.imageAlt}>
   {/if}
   <h3 class="projectCard_heading">{item.title}</h3>
@@ -14,7 +14,7 @@
   </ul>
   <p class="projectCard_body">{item.description}</p>
   {#if item.url}
-    <a href="item.url">{item.urlText}</a>
+    <a href={item.url}>{item.urlText}</a>
   {/if}
 </section>
 
@@ -27,6 +27,7 @@
 
   &_image {
     display: block;
+    max-width: 200px;
   }
 
   &_heading {

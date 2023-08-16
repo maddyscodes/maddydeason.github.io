@@ -27,12 +27,17 @@
     justify-content: center;
     width: 1.7em;
     height: 1.7em;
+    transition: .5s ease;
     border-radius: 50%;
     background-color: var(--color-background);
     color: var(--color-black);
     font-size: 1.5em;
     line-height: 1;
     text-decoration: none;
+
+    &:hover {
+      transform: scale(.9,.9)
+    }
   }
 
   .behance::before {
