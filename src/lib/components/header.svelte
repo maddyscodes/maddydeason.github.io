@@ -1,5 +1,5 @@
 <script>
-  import ThemeSwitch from "./themeSwitch.svelte";
+  import ThemeSwitch from "$lib/components/themeSwitch.svelte";
   import { base } from '$app/paths';
 </script>
 
