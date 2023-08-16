@@ -36,7 +36,7 @@
   &_heading {
     line-height: 1.2em;
     text-decoration: underline;
-    text-decoration-color: var(--color-primary);
+    text-decoration-color: var(--color-secondary);
   }
 
   &_list {
