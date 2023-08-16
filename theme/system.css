@@ -1,0 +1,33 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --color-lightest: hsl(60, 100%, 99%);
+    --color-lighter: hsl(60, 4%, 82%);
+    --color-light: hsl(60, 2%, 65%);
+    --color-strong: hsl(45, 2%, 48%);
+    --color-stronger: hsl(45, 3%, 31%);
+    --color-strongest: hsl(40, 4%, 14%);
+    --color-link: hsl(218, 74%, 41%);
+    --color-linkvisited: hsl(280, 74%, 41%);
+    --color-primary: hsl(38deg 74% 56%);
+    --color-secondary: hsl(317deg 25% 75%);
+    --icon-theme: '\e900';
+    --icon-margin: 0;
+  }
+}
+  
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-lightest: hsl(40, 4%, 14%);
+    --color-lighter: hsl(45, 3%, 31%);
+    --color-light: hsl(45, 2%, 48%);
+    --color-strong: hsl(60, 2%, 65%);
+    --color-stronger: hsl(60, 4%, 82%);
+    --color-strongest: hsl(60, 100%, 99%);
+    --color-link: hsl(218, 74%, 74%);
+    --color-linkvisited: hsl(282, 80%, 77%);
+    --color-primary: hsl(317deg 25% 75%);
+    --color-secondary: hsl(38deg 74% 56%);
+    --icon-theme: '\e901';
+    --icon-margin: 1.25em;
+  }
+}
