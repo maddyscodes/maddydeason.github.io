@@ -4,16 +4,23 @@
 </script>
 
 <footer class="footer">
+  <Socials --color-background="var(--color-white)" />
   <p class="footer_copyright">&copy;{currentYear} Mana Sugiyoshi</p>
-  <Socials />
 </footer>
 
 <style lang="scss">
 .footer {
-  padding: 1rem 0;
+  padding: 1.5rem;
+  background-color: var(--color-secondary);
+  color: var(--color-black);
+  font: 400 1em/1 'Source Sans', sans-serif;
+
+  @media only screen and (width >=768px) {
+    padding-left: 4rem;
+  }
 
   &_copyright {
-    margin: 0;
+    margin: 1.5rem 0 0;
   }
 }
 </style>

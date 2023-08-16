@@ -9,12 +9,10 @@
   <ProjectCard item={project} />
 {/each}
 
-<p class="page_body">For more info about my work:<a class="page_link" href="https://www.linkedin.com/in/manasugiyoshi/">Visit my Linkedin</a></p>
+<p class="page_body">For more about my work:<a class="page_link" href="https://www.linkedin.com/in/manasugiyoshi/">Visit my Linkedin</a></p>
 
 
 <style lang="scss">
-@import url("$lib/styles/page.scss");
-
 .page {
   &_heading {
     margin-top: 6rem;

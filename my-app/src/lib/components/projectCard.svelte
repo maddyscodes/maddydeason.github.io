@@ -33,7 +33,7 @@
     line-height: 1.2em;
     text-decoration: underline var(--color-secondary);
   }
-  
+
   &_list {
     display: flex;
     flex-wrap: wrap;
@@ -50,8 +50,9 @@
       background-color: var(--color-primary);
     }
   }
-  
+
   &_body {
+    max-width: 700px;
     margin-bottom: 0;
   }
 }

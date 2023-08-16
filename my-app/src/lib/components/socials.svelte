@@ -20,7 +20,7 @@
   /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
   font-family: icomoon !important;
   list-style: none;
-  
+
   &_link {
     display: flex;
     align-items: center;
@@ -28,13 +28,13 @@
     width: 1.7em;
     height: 1.7em;
     border-radius: 50%;
-    background-color: var(--color-secondary);
+    background-color: var(--color-background);
     color: var(--color-black);
     font-size: 1.5em;
     line-height: 1;
     text-decoration: none;
   }
-  
+
   .behance::before {
     content: "\eaa8";
   }
@@ -50,6 +50,5 @@
   .codepen::before {
     content: "\eae8";
   }
-
 }
 </style>

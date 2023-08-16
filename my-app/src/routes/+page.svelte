@@ -5,12 +5,16 @@
   import {featuredProjects} from "$lib/projectData";
 </script>
 
-<section id="intro" class="page_section">
-  <img class="page_image" src="$lib/images/logo_maddy.svg" alt="">
-  <h1 class="page_heading title">maddy<span class="japanese">・杉吉真奈</span></h1>
-  <h2 class="page_subheading">bilingual UI/UX engineer at Rakuten</h2>
-  <p class="page_body">I combine my creative, technical, and communication skills to build a better future for the web and the world.</p>
-  <Socials />
+<section id="intro" class="page_section intro">
+  <div>
+    <img class="page_image" src="$lib/images/logo_maddy.svg" alt="">
+    <h1 class="page_heading title">maddy<span class="japanese">・杉吉真奈</span></h1>
+    <h2 class="page_subheading">bilingual UI/UX engineer at Rakuten</h2>
+  </div>
+  <div>
+    <p class="page_body">I combine my <em class="emphasis">creative</em>, <em class="emphasis">technical</em>, and <em class="emphasis">communication</em> skills to build a better future for the web and the world.</p>
+    <Socials --color-background="var(--color-secondary)" />
+  </div>
 </section>
 
 <section id="experience" class="page_section">
@@ -43,11 +47,29 @@
   &_heading {
     &.title {
       margin-top: -1px;
-      background-color: var(--color-purple);
     }
 
     .japanese {
       font-family: "M PLUS 1p", sans-serif;
+    }
+  }
+
+  @media only screen and (width >= 768px) {
+    &_section.intro {
+      display: flex;
+      gap: 4rem;
+      align-items: end;
+      height: calc(100vh - 8rem);
+      margin-top: -4rem;
+      margin-bottom: 8rem;
+
+      .page_subheading {
+        margin-bottom: 0;
+      }
+
+      .page_body {
+        font-size: 1.8em;
+      }
     }
   }
 }
