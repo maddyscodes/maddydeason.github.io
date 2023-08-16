@@ -6,6 +6,7 @@
 </script>
 
 <svelte:head>
+  <title>maddy | UI/UX engineer</title>
   <meta name="color-scheme" content={$theme === 'system' ? 'light dark' : $theme}/>
   <link rel="stylesheet" href={`/theme/${$theme}.css`} />
 </svelte:head>
