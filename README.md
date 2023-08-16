@@ -2,4 +2,4 @@
 
 My personal website and portfolio
 
-<a href="http://maddy.codes/">See it live</a>
+[See it live](http://maddy.codes/)

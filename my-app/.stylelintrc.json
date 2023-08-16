@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-scss",
+    "stylelint-config-html",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "rules": {
+    "color-named": "never",
+    "shorthand-property-no-redundant-values": true,
+    "declaration-block-no-redundant-longhand-properties": true,
+    "declaration-block-single-line-max-declarations": 1,
+    "selector-max-compound-selectors": 3,
+    "selector-max-id": 0,
+    "max-nesting-depth": 4,
+    "color-hex-length": "long",
+    "font-weight-notation": "numeric",
+    "length-zero-no-unit": true,
+    "value-keyword-case": "lower",
+    "declaration-empty-line-before": "never",
+    "selector-class-pattern": null,
+    "selector-pseudo-element-no-unknown": true,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "ignore": ["after-comment", "first-nested"]
+      }
+    ],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "ignoreAtRules": ["import", "use", "else"],
+        "except": ["blockless-after-same-name-blockless", "blockless-after-blockless", "first-nested"],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "at-rule-no-unknown": null,
+    "scss/at-rule-no-unknown": true
+  },
+  "ignoreFiles": ["node_modules/*", "build/**"],
+  "defaultSeverity": "error",
+  "customSyntax": "postcss-html"
+}

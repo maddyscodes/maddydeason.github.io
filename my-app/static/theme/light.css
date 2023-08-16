@@ -1,0 +1,14 @@
+:root {
+  --color-lightest: hsl(60, 100%, 99%);
+  --color-lighter: hsl(60, 4%, 82%);
+  --color-light: hsl(60, 2%, 65%);
+  --color-strong: hsl(45, 2%, 48%);
+  --color-stronger: hsl(45, 3%, 31%);
+  --color-strongest: hsl(40, 4%, 14%);
+  --color-link: hsl(218, 74%, 41%);
+  --color-linkvisited: hsl(280, 74%, 41%);
+  --color-primary: hsl(38deg 74% 56%);
+  --color-secondary: hsl(317deg 25% 75%);
+  --icon-theme: '\e900';
+  --icon-margin: 0;
+}
