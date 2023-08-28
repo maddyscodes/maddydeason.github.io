@@ -1,5 +1,7 @@
 export interface Projects {
   title: string
+  startDate: string
+  endDate?: string
   skills: Array<string>
   description: string
   url?: string
