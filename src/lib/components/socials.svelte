@@ -55,5 +55,9 @@
   .codepen::before {
     content: "\eae8";
   }
+
+  .twitter::before {
+    content: "\ea96";
+  }
 }
 </style>

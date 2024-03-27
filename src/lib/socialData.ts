@@ -17,6 +17,10 @@ const socials: Socials[] = [
     name: 'behance',
     url: 'http://www.behance.net/maddycodes',
   },
+  {
+    name: 'twitter',
+    url: 'https://twitter.com/manasugiyoshi',
+  },
 ]
 
 export default socials;
