@@ -1,10 +1,12 @@
 <script lang="ts">
   import { currentYear } from "$lib/plugins";
   import Socials from "./socials.svelte"
+  import Webring from "./webring.svelte"
 </script>
 
 <footer class="footer">
   <Socials --color-background="var(--color-white)" />
+  <Webring />
   <p class="footer_copyright">&copy;{currentYear} Mana Sugiyoshi</p>
 </footer>
 
@@ -20,7 +22,7 @@
   }
 
   &_copyright {
-    margin: 1.5rem 0 0;
+    margin: 0;
   }
 }
 </style>
