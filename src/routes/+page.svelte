@@ -10,7 +10,7 @@
   <div>
     <img class="page_image" src="$lib/images/logo_maddy.svg" alt="">
     <h1 class="page_heading title">maddy<span class="japanese">・杉吉真奈</span></h1>
-    <h2 class="page_subheading">JP/EN Bilingual Frontend Engineer</h2>
+    <h2 class="page_subheading">JP/EN Bilingual Frontend Engineer<br>@ <a href="https://goodpatch.com/">Goodpatch</a></h2>
   </div>
   <div>
     <p class="page_body">I combine my <em class="emphasis">creative</em>, <em class="emphasis">technical</em>, and <em class="emphasis">communication</em> skills to build a better future for the web and the world.</p>
