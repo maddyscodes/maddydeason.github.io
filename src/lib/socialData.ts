@@ -3,7 +3,7 @@ import type { Socials } from "./types";
 const socials: Socials[] = [
   {
     name: 'linkedin',
-    url: 'https://www.linkedin.com/in/maddysugiyoshi/',
+    url: 'https://www.linkedin.com/in/manasugiyoshi/',
   },
   {
     name: 'codepen',
